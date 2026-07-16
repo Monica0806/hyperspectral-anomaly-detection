@@ -60,34 +60,6 @@ The anomalous objects in this scene correspond to aircraft.
 
 > The dataset is not included in this repository. Place `aviris_1.mat` inside the `data/` directory before running the notebooks.
 
-## Repository Structure
-
-```text
-hyperspectral-anomaly-detection/
-│
-├── data/
-│   └── aviris_1.mat
-│
-├── notebooks/
-│   ├── 01_Data_Exploration.ipynb
-│   ├── 02_RX_Anomaly_Detection.ipynb
-│   ├── 03_Autoencoder_Anomaly_Detection.ipynb
-│   ├── 04_Variational_Autoencoder.ipynb
-│   ├── 05_Spectral_VAE.ipynb
-│   └── 06_Model_Comparison.ipynb
-│
-├── results/
-│   ├── aviris_rx_results.png
-│   ├── aviris_standard_scaler.joblib
-│   ├── aviris_pca.joblib
-│   └── aviris_rx_covariance.joblib
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
-```
-
-Rename the notebook files in the structure above if your actual notebook names are different.
 
 ## Experimental Workflow
 
